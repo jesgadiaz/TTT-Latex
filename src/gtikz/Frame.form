@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="File"/>
+          </Properties>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="About"/>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="About"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Time-To-Target Plot for Latex"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jCheckBox2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="aaa" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jCheckBox3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="sss" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jCheckBox4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="ddf" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jCheckBox5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="adf" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jCheckBox6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="fdff" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="ListA1" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                  <Component id="ListA2" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                      <Component id="ListA5" alignment="0" pref="118" max="32767" attributes="0"/>
+                      <Component id="ListA4" alignment="0" max="32767" attributes="0"/>
+                      <Component id="ListA3" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="ListA6" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="ms5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="m5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="ms6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="m6" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="ms2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="ms3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="ms4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="ms1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="m2" min="-2" max="-2" attributes="0"/>
+                          <Component id="m1" min="-2" max="-2" attributes="0"/>
+                          <Component id="m3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="m4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jSeparator5" min="-2" pref="248" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="SizeX" min="-2" pref="44" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="SizeY" min="-2" pref="44" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="x_scale" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="y_label" min="-2" pref="121" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="x_label" min="-2" pref="121" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jSeparator6" min="-2" pref="257" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="28" pref="28" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Component id="RunButton" min="-2" pref="137" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="642" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCheckBox1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ListA1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ms1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCheckBox2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="aaa" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ListA2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ms2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jCheckBox3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="sss" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ms3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="m3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ListA3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jCheckBox4" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="ddf" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ListA4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="ListA5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="adf" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jCheckBox5" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ms4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="m4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ms5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="m5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="2" pref="2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                              <Component id="fdff" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="ListA6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="ms6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Component id="m6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                              <Component id="jCheckBox6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="SizeY" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SizeX" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                              <Component id="jSeparator6" min="-2" pref="10" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="x_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="y_label" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      <Component id="jSeparator5" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="x_scale" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
+                      <Component id="RunButton" min="-2" pref="149" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="210" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="24" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A1-TTT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aaa">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A2-TTT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ListA1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ListA2">
+    </Component>
+    <Component class="javax.swing.JLabel" name="sss">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A3-TTT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ListA3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="ddf">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A4-TTT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ListA4">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="plot size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SizeX">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SizeXActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SizeY">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(cm)"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="width"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="height"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox2">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox3">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox4">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox5">
+    </Component>
+    <Component class="javax.swing.JLabel" name="adf">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A5-TTT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ListA5">
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="jCheckBox6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="fdff">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A6-TTT"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ListA6">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ms1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="30">
+            <StringItem index="0" value="0.1"/>
+            <StringItem index="1" value="0.2"/>
+            <StringItem index="2" value="0.3"/>
+            <StringItem index="3" value="0.4"/>
+            <StringItem index="4" value="0.5"/>
+            <StringItem index="5" value="0.6"/>
+            <StringItem index="6" value="0.7"/>
+            <StringItem index="7" value="0.8"/>
+            <StringItem index="8" value="0.9"/>
+            <StringItem index="9" value="1"/>
+            <StringItem index="10" value="1.1"/>
+            <StringItem index="11" value="1.2"/>
+            <StringItem index="12" value="1.3"/>
+            <StringItem index="13" value="1.4"/>
+            <StringItem index="14" value="1.5"/>
+            <StringItem index="15" value="1.6"/>
+            <StringItem index="16" value="1.7"/>
+            <StringItem index="17" value="1.8"/>
+            <StringItem index="18" value="1.9"/>
+            <StringItem index="19" value="2"/>
+            <StringItem index="20" value="2.1"/>
+            <StringItem index="21" value="2.2"/>
+            <StringItem index="22" value="2.3"/>
+            <StringItem index="23" value="2.4"/>
+            <StringItem index="24" value="2.5"/>
+            <StringItem index="25" value="2.6"/>
+            <StringItem index="26" value="2.7"/>
+            <StringItem index="27" value="2.8"/>
+            <StringItem index="28" value="2.9"/>
+            <StringItem index="29" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark size"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ms2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="30">
+            <StringItem index="0" value="0.1"/>
+            <StringItem index="1" value="0.2"/>
+            <StringItem index="2" value="0.3"/>
+            <StringItem index="3" value="0.4"/>
+            <StringItem index="4" value="0.5"/>
+            <StringItem index="5" value="0.6"/>
+            <StringItem index="6" value="0.7"/>
+            <StringItem index="7" value="0.8"/>
+            <StringItem index="8" value="0.9"/>
+            <StringItem index="9" value="1"/>
+            <StringItem index="10" value="1.1"/>
+            <StringItem index="11" value="1.2"/>
+            <StringItem index="12" value="1.3"/>
+            <StringItem index="13" value="1.4"/>
+            <StringItem index="14" value="1.5"/>
+            <StringItem index="15" value="1.6"/>
+            <StringItem index="16" value="1.7"/>
+            <StringItem index="17" value="1.8"/>
+            <StringItem index="18" value="1.9"/>
+            <StringItem index="19" value="2"/>
+            <StringItem index="20" value="2.1"/>
+            <StringItem index="21" value="2.2"/>
+            <StringItem index="22" value="2.3"/>
+            <StringItem index="23" value="2.4"/>
+            <StringItem index="24" value="2.5"/>
+            <StringItem index="25" value="2.6"/>
+            <StringItem index="26" value="2.7"/>
+            <StringItem index="27" value="2.8"/>
+            <StringItem index="28" value="2.9"/>
+            <StringItem index="29" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ms3">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="30">
+            <StringItem index="0" value="0.1"/>
+            <StringItem index="1" value="0.2"/>
+            <StringItem index="2" value="0.3"/>
+            <StringItem index="3" value="0.4"/>
+            <StringItem index="4" value="0.5"/>
+            <StringItem index="5" value="0.6"/>
+            <StringItem index="6" value="0.7"/>
+            <StringItem index="7" value="0.8"/>
+            <StringItem index="8" value="0.9"/>
+            <StringItem index="9" value="1"/>
+            <StringItem index="10" value="1.1"/>
+            <StringItem index="11" value="1.2"/>
+            <StringItem index="12" value="1.3"/>
+            <StringItem index="13" value="1.4"/>
+            <StringItem index="14" value="1.5"/>
+            <StringItem index="15" value="1.6"/>
+            <StringItem index="16" value="1.7"/>
+            <StringItem index="17" value="1.8"/>
+            <StringItem index="18" value="1.9"/>
+            <StringItem index="19" value="2"/>
+            <StringItem index="20" value="2.1"/>
+            <StringItem index="21" value="2.2"/>
+            <StringItem index="22" value="2.3"/>
+            <StringItem index="23" value="2.4"/>
+            <StringItem index="24" value="2.5"/>
+            <StringItem index="25" value="2.6"/>
+            <StringItem index="26" value="2.7"/>
+            <StringItem index="27" value="2.8"/>
+            <StringItem index="28" value="2.9"/>
+            <StringItem index="29" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ms4">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="30">
+            <StringItem index="0" value="0.1"/>
+            <StringItem index="1" value="0.2"/>
+            <StringItem index="2" value="0.3"/>
+            <StringItem index="3" value="0.4"/>
+            <StringItem index="4" value="0.5"/>
+            <StringItem index="5" value="0.6"/>
+            <StringItem index="6" value="0.7"/>
+            <StringItem index="7" value="0.8"/>
+            <StringItem index="8" value="0.9"/>
+            <StringItem index="9" value="1"/>
+            <StringItem index="10" value="1.1"/>
+            <StringItem index="11" value="1.2"/>
+            <StringItem index="12" value="1.3"/>
+            <StringItem index="13" value="1.4"/>
+            <StringItem index="14" value="1.5"/>
+            <StringItem index="15" value="1.6"/>
+            <StringItem index="16" value="1.7"/>
+            <StringItem index="17" value="1.8"/>
+            <StringItem index="18" value="1.9"/>
+            <StringItem index="19" value="2"/>
+            <StringItem index="20" value="2.1"/>
+            <StringItem index="21" value="2.2"/>
+            <StringItem index="22" value="2.3"/>
+            <StringItem index="23" value="2.4"/>
+            <StringItem index="24" value="2.5"/>
+            <StringItem index="25" value="2.6"/>
+            <StringItem index="26" value="2.7"/>
+            <StringItem index="27" value="2.8"/>
+            <StringItem index="28" value="2.9"/>
+            <StringItem index="29" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ms5">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="30">
+            <StringItem index="0" value="0.1"/>
+            <StringItem index="1" value="0.2"/>
+            <StringItem index="2" value="0.3"/>
+            <StringItem index="3" value="0.4"/>
+            <StringItem index="4" value="0.5"/>
+            <StringItem index="5" value="0.6"/>
+            <StringItem index="6" value="0.7"/>
+            <StringItem index="7" value="0.8"/>
+            <StringItem index="8" value="0.9"/>
+            <StringItem index="9" value="1"/>
+            <StringItem index="10" value="1.1"/>
+            <StringItem index="11" value="1.2"/>
+            <StringItem index="12" value="1.3"/>
+            <StringItem index="13" value="1.4"/>
+            <StringItem index="14" value="1.5"/>
+            <StringItem index="15" value="1.6"/>
+            <StringItem index="16" value="1.7"/>
+            <StringItem index="17" value="1.8"/>
+            <StringItem index="18" value="1.9"/>
+            <StringItem index="19" value="2"/>
+            <StringItem index="20" value="2.1"/>
+            <StringItem index="21" value="2.2"/>
+            <StringItem index="22" value="2.3"/>
+            <StringItem index="23" value="2.4"/>
+            <StringItem index="24" value="2.5"/>
+            <StringItem index="25" value="2.6"/>
+            <StringItem index="26" value="2.7"/>
+            <StringItem index="27" value="2.8"/>
+            <StringItem index="28" value="2.9"/>
+            <StringItem index="29" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="ms6">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="30">
+            <StringItem index="0" value="0.1"/>
+            <StringItem index="1" value="0.2"/>
+            <StringItem index="2" value="0.3"/>
+            <StringItem index="3" value="0.4"/>
+            <StringItem index="4" value="0.5"/>
+            <StringItem index="5" value="0.6"/>
+            <StringItem index="6" value="0.7"/>
+            <StringItem index="7" value="0.8"/>
+            <StringItem index="8" value="0.9"/>
+            <StringItem index="9" value="1"/>
+            <StringItem index="10" value="1.1"/>
+            <StringItem index="11" value="1.2"/>
+            <StringItem index="12" value="1.3"/>
+            <StringItem index="13" value="1.4"/>
+            <StringItem index="14" value="1.5"/>
+            <StringItem index="15" value="1.6"/>
+            <StringItem index="16" value="1.7"/>
+            <StringItem index="17" value="1.8"/>
+            <StringItem index="18" value="1.9"/>
+            <StringItem index="19" value="2"/>
+            <StringItem index="20" value="2.1"/>
+            <StringItem index="21" value="2.2"/>
+            <StringItem index="22" value="2.3"/>
+            <StringItem index="23" value="2.4"/>
+            <StringItem index="24" value="2.5"/>
+            <StringItem index="25" value="2.6"/>
+            <StringItem index="26" value="2.7"/>
+            <StringItem index="27" value="2.8"/>
+            <StringItem index="28" value="2.9"/>
+            <StringItem index="29" value="3"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel13">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m1">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="circle"/>
+            <StringItem index="1" value="square"/>
+            <StringItem index="2" value="triangle"/>
+            <StringItem index="3" value="cross"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel14">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m2">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="circle"/>
+            <StringItem index="1" value="square"/>
+            <StringItem index="2" value="triangle"/>
+            <StringItem index="3" value="cross"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel15">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m3">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="circle"/>
+            <StringItem index="1" value="square"/>
+            <StringItem index="2" value="triangle"/>
+            <StringItem index="3" value="cross"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel16">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m4">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="circle"/>
+            <StringItem index="1" value="square"/>
+            <StringItem index="2" value="triangle"/>
+            <StringItem index="3" value="cross"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m5">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="circle"/>
+            <StringItem index="1" value="square"/>
+            <StringItem index="2" value="triangle"/>
+            <StringItem index="3" value="cross"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel18">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mark"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="m6">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="circle"/>
+            <StringItem index="1" value="square"/>
+            <StringItem index="2" value="triangle"/>
+            <StringItem index="3" value="cross"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel19">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x label"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="x_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seconds"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel20">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="y label"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="y_label">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="CDF"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel21">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x scale"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="x_scale">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="logarithmic"/>
+            <StringItem index="1" value="lineal"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="RunButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Run"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RunButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator5">
+    </Component>
+    <Component class="javax.swing.JSeparator" name="jSeparator6">
+    </Component>
+  </SubComponents>
+</Form>
